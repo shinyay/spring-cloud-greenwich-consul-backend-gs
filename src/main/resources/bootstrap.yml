@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: backend-service
+  cloud:
+    consul:
+      discovery:
+        hostname: localhost
+        register-health-check: false
