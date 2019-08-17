@@ -15,6 +15,32 @@ Overview
 
 ## Usage
 
+### Run Consul Container at Local
+
+```
+$ docker run --rm -it -d --name my-consul -p 8500:8500 consul:1.5.3
+```
+or
+```
+$ script/run-consul.fish
+```
+
+### Open Consul Dashboard
+
+```
+$ open http://localhost:8500
+```
+
+### Create Config in Consul
+
+**config/application-name/key-name**
+
+- `Key/Value -> Create`
+- `config/my-app/my/prop`
+  - my-app: Application Name
+  - my/prop: Config Key
+
+
 ## Installation
 
 ## Licence
