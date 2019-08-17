@@ -1,4 +1,4 @@
-package io.pivotal.shinyay.greenwich.gs.backend
+package io.pivotal.shinyay.greenwich.backend
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

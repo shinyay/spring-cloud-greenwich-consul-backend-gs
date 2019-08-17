@@ -1,4 +1,4 @@
-package io.pivotal.shinyay.greenwich.gs.backend.controller
+package io.pivotal.shinyay.greenwich.backend.controller
 
 import org.springframework.core.env.Environment
 import org.springframework.web.bind.annotation.GetMapping
