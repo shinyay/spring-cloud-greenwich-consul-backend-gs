@@ -36,9 +36,9 @@ $ open http://localhost:8500
 **config/application-name/key-name**
 
 - `Key/Value -> Create`
-- `config/my-app/my/prop`
-  - my-app: Application Name
-  - my/prop: Config Key
+- `config/backend-service/server.port`
+  - backend-service: Application Name
+  - server.port: Config Key
 
 
 ## Installation
